@@ -1,6 +1,6 @@
 {
   "name": "valetudo-mapper",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "dependencies": {
     "jimp": "^0.10.0",
     "mqtt": "^3.0.0",
