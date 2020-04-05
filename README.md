@@ -54,12 +54,6 @@ To override the configuration inside the docker container, map it to `/app/confi
 
 Guessed crop values allow to get rid of empty spaces at the edges of the image.
 
-### Map PNG example in HA
-
-![map](https://user-images.githubusercontent.com/30267719/67422498-45d8f480-f5db-11e9-8f23-b1472cfb0962.png)
-
-Static raster image looks worse than browser generated via HTML Canvas but will do when JS is unavailable.
-
 ### FHEM, ioBroker, etc
 If you set `webserver.enabled` to `true`, the map PNG will be available at `http://host:port/api/map/image`
 
