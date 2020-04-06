@@ -11,7 +11,7 @@ Since both CPU and Memory are limited on the robot, PNG generation for third-par
 
 Here are the main changes from valetudo-mapper:
 - Docker image now use production environment and dedicated user
-- Allow use of `MQTT_BROKER_URL` environment variable instead of JSON configuration in order to version the configuration on Git without specifying credentials
+- Allow use of `MQTT_BROKER_URL` environment variable instead of JSON configuration in order to version the configuration on Git without specifying credentials (not working for now)
 - Do not send map pixel details in map_data_parsed topic if asked (`omitMapDataPixels`). Compatible with [lovelace-rockrobo-path-card](https://github.com/nboissel/lovelace-rockrobo-path-card)
 
 Those changes aim at providing better Docker experience and a lighter MQTT use. 

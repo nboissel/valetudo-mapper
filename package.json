@@ -1,6 +1,6 @@
 {
   "name": "valetudo-mapper",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "description": "Companion service for valetudo which does all the heavy lifting",
   "repository": "github:nboissel/valetudo-mapper",
   "license": "Apache-2.0",
