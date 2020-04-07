@@ -4,13 +4,17 @@
   "description": "Companion service for valetudo which does all the heavy lifting",
   "repository": "github:nboissel/valetudo-mapper",
   "license": "Apache-2.0",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "nodemon --debug app.js"
+  },
   "dependencies": {
     "jimp": "^0.10.0",
     "mqtt": "^3.0.0",
     "compression": "^1.7.2",
     "express": "^4.17.1"
   },
-  "scripts": {
-    "start": "node app.js"
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
